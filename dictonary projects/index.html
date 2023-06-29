@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictonary app</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h1>dictonary</h1>
+      </div>
+    </nav>
+    <section class="input container">
+      <h2>find any word exist in the world :)</h2>
+      <div class="form_wrap">
+        <div class="input_wrap">
+          <input type="text" placeholder="type a word"  id="input">
+          <button id="search">search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="data container">
+        <span class="loading">loading...</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not_found"></div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
